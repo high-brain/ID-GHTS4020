@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= , initial-scale=1.0">
+  <link rel="stylesheet" href="/todo.css">
+  <link rel="stylesheet" href="/main.css">
+  <link rel="icon" href="/logo/brain2.jpg">
+  <title>To Do List</title>
+</head>
+<body>
+  <header>
+    <a href="/main.html"><img class="navigation" src="/images/GH Technology School.png" alt="navigation image"></a> 
+ 
+  <div class="move">
+   <div class="dropdown">
+     <button class="dropbtn">Fixtures</button>
+     <div class="dropdown-content">
+             <a href="/E.fixtures.html"> Premier League</a>
+             <a href="/Laliga-fixtures.html">LaLiga</a>
+             <a href="/Ligue1-fixtures.html">Ligue 1</a>
+             <a href="/to do-list.html">Todo List</a>
+           
+     </div>
+   </div>
+   <div class="dropdown">
+     <button class="dropbtn">Table</button>
+     <div class="dropdown-content">
+             <a href="/england.html"> Premier League</a>
+             <a href="/LaLiga.html">LaLiga</a>
+             <a href="/Ligue 1.html">Ligue 1</a>
+             <a href="/to do-list.html">Todo List</a>
+           
+     </div>
+   </div>
+   <a href="/to do-list.html"><button class="id">Todo-List</button></a>
+ </div>
+   </header>
+  <h1>Todo List</h1>
+
+<div class="todo-input-grid">
+  <input placeholder="Todo name" class="js-name-input name-input">
+  <input type="date" class="js-due-date-input due-date-input">
+
+  <button class="add-todo-button" onclick="
+    addTodo();
+    ">Add</button>
+</div>
+<div class="js-todo-list todo-grid"></div>
+
+ <script src="/to do-list.js"></script>
+</body>
+</html>

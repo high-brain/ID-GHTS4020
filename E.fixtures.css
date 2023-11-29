@@ -1,0 +1,44 @@
+.hedn{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(49, 158, 22);
+  font-family: sans-serif;
+  text-decoration: underline blueviolet;
+  text-transform: uppercase;
+}
+
+
+.home{
+  width: 40px;
+  margin: 5px 8px;
+  margin-right: 10rem;
+  border-radius: 6px;
+  display: inline;
+}
+h3{
+  color: rgb(1, 5, 1);
+  text-align: center;
+  font-size: 29px;
+  display: inline;
+  margin-left: 12rem;
+  text-decoration: underline gray;
+}
+
+.section{
+  height: 100%;
+  width: 300px;
+  background-color: rgb(19, 17, 17);
+  margin-top: 1rem;
+  margin-left: 530px;
+}
+
+th{
+  color: white;
+  padding: 1rem;
+}
+td{
+  color: rgb(91, 91, 134);
+  font-size: 18px;
+  font-style: normal;
+  font-family: sans-serif;
+}
